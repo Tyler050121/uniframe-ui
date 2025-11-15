@@ -1,0 +1,14 @@
+{
+    "name": "uniframe.ui",
+    "displayName": "Unity Framework UI",
+    "version": "1.0.0",
+    "unity": "2022.3",
+    "description": "UI framework based on Unity Framework.",
+    "dependencies": {
+    },
+    "author": {
+        "name": "XuanMeng",
+        "email": "yanmingxin050121@gmail.com",
+        "url": "https://github.com/Tyler050121"
+    }
+}
