@@ -90,7 +90,6 @@ namespace UIFramework.Core
             else
             {
                 Debug.LogWarning($"[UIScreenController] Show called with invalid properties for screen {ScreenID}");
-                return;
             }
 
             HierachyFixOnShow();
