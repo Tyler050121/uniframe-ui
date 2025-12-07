@@ -2,7 +2,8 @@ using UIFramework.Core;
 
 namespace UIFramework.Window
 {
-    public abstract class WindowController<TProps> : UIScreenController<TProps>, IWindowController
+    public abstract class WindowController : AWindowController<WindowProperties> { }
+    public abstract class AWindowController<TProps> : UIScreenController<TProps>, IWindowController
         where TProps : IWindowProperties
     {
         public bool HideOnForegroundLost => Properties.HideOnForegroundLost;

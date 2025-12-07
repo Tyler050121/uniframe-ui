@@ -1,7 +1,7 @@
 {
     "name": "uniframe.ui",
     "displayName": "Unity Framework UI",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "unity": "2022.3",
     "description": "UI framework based on Unity Framework.",
     "dependencies": {
